@@ -13,6 +13,11 @@ body{
     color: blue;
 
 }
+.pagebox{
+    min-width: 180px;
+
+}
+
 
 .img {
     display: grid;
@@ -36,13 +41,15 @@ ul {
     display: flex;
     position: relative;
     justify-content: center;
+    border-left: 50px;
+    border-right: 50px;
 
 }
 
 nav {
     position: relative;
-    width: 30%;
-    min-width: 450px;
+    min-width: 300px;
+    max-width: 450px;
     border-radius: 20px;
     background: linear-gradient(to bottom, black, blue);
     padding-bottom: 1em;
@@ -59,7 +66,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
@@ -73,7 +80,7 @@ nav li a span {
 }
 
 nav li.active a span {
-    transform: translateY(-115px) scale(2.5);
+    transform: translateY(-100px) scale(2.5);
     color: black;
     font-weight: bold;
 }
@@ -86,7 +93,7 @@ nav li i {
     width: 40px;
     height: 40px;
     font-size: 24px;
-    border-radius: 40%;
+    border-radius: 50%;
     background-color: transparent;
     transform: scale(1);
     transition: transform .3s, background-color .3s;
@@ -104,36 +111,41 @@ nav li p {
     font-family: Arial;
     visibility: hidden;
     padding: 15px;
-    width: 100%;
-    right: 35%;
+
 }
 
 p iframe{
+    position: absolute;
     border-radius: 25px;
-    width: 150%;
+    width: 100%;
     border: none;
 }
 
 
 nav li:nth-child(1).active p{
-    transform: translateY(25%) scale(1.5);
+    transform: translateY(25%) translateX(6%) scale(1.5);
     visibility: inherit;
+    width: 66%;
 }
 nav li:nth-child(2).active p{
-    transform: translateY(25%) scale(1.5);
+    transform: translateY(25%) translateX(-20%) scale(1.5);
     visibility: inherit;
+    width: 66%;
 }
 nav li:nth-child(3).active p{
-    transform: translateY(25%) scale(1.5);
+    transform: translateY(25%) translateX(-46%) scale(1.5);
     visibility: inherit;
+    width: 66%;
 }
 nav li:nth-child(4).active p{
-    transform: translateY(25%) scale(1.5);
+    transform: translateY(25%) translateX(-73%) scale(1.5);
     visibility: inherit;
+    width: 66%;
 }
 nav li:nth-child(5).active p{
-    transform: translateY(25%) scale(1.5);
+    transform: translateY(25%) translateX(-99%) scale(1.5);
     visibility: inherit;
+    width: 66%;
 }
 
 
