@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: blue;
+
+}
+
+.img {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+nav {
+    position: relative;
+    width: 30%;
+    min-width: 450px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, black, blue);
+    padding-bottom: 1em;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+nav li a span {
+    position: absolute;
+    bottom: 12px;
+    font-size: 10px;
+    transform: translateY(15px);
+    transition: transform .4s
+
+}
+
+nav li.active a span {
+    transform: translateY(-115px) scale(2.5);
+    color: black;
+    font-weight: bold;
+}
+
+nav li i {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 40%;
+    background-color: transparent;
+    transform: scale(1);
+    transition: transform .3s, background-color .3s;
+}
+
+nav li.active i {
+    transform: translateY(-40px) scale(1.65);
+    background: linear-gradient(to right, red, pink);
+    box-shadow: black 0 0 5px 3px;
+}
+
+
+nav li p {
+    position: absolute;
+    font-family: Arial;
+    visibility: hidden;
+    padding: 15px;
+    width: 100%;
+    right: 35%;
+}
+
+p iframe{
+    border-radius: 25px;
+    width: 150%;
+    border: none;
+}
+
+
+nav li:nth-child(1).active p{
+    transform: translateY(25%) scale(1.5);
+    visibility: inherit;
+}
+nav li:nth-child(2).active p{
+    transform: translateY(25%) scale(1.5);
+    visibility: inherit;
+}
+nav li:nth-child(3).active p{
+    transform: translateY(25%) scale(1.5);
+    visibility: inherit;
+}
+nav li:nth-child(4).active p{
+    transform: translateY(25%) scale(1.5);
+    visibility: inherit;
+}
+nav li:nth-child(5).active p{
+    transform: translateY(25%) scale(1.5);
+    visibility: inherit;
+}
+
+
+
+
+

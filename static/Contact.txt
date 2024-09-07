@@ -1,0 +1,6 @@
+Bruger primært Meta Messenger som kommunikations platform - det som førhen hed facebook messenger
+Ellers har jeg telefon og mail som er følgende:
+Tlf: Måske næste gang ;)
+Mail: Måske gangen efter det igen ;)
+
+Mit iframe element bugger ved page resizing, og har konkluderet min opsætning er uoptimal ...TBC...
