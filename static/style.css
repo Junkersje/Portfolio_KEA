@@ -96,7 +96,6 @@ nav li.active i {
 
 nav li p {
     position: absolute;
-    display: flex;
     font-family: Arial;
     visibility: hidden;
     padding: 15px;
@@ -104,7 +103,6 @@ nav li p {
 
 p iframe{
     position: absolute;
-    display: flex;
     border-radius: 25px;
     width: 100%;
     border: none;
